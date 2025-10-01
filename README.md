@@ -1,33 +1,25 @@
-# simourg-test
+# Тестовое Simourg
 
-This template should help get you started developing with Vue 3 in Vite.
+Приложение содержит:
 
-## Recommended IDE Setup
+- Страницу списка пользователей, с возможностью поиска и пагинации.
+- Страницу детальной информации о пользователе.
+- Страницу создания нового пользователя.
+- Страницу редактирование существующего пользователя.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## Стек
 
-## Type Support for `.vue` Imports in TS
+- [Vue](https://vuejs.org/)
+- [Vue Router](https://router.vuejs.org/)
+- [Pinia](https://pinia.vuejs.org/)
+- [Axios](https://axios-http.com/)
+- [Json Server@0.17.4](https://github.com/typicode/json-server/tree/v0.17.4)
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+## Быстрый старт (локально)
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
+```bash
+git clone https://github.com/hi9mi/simourg-test.git
+cd simourg-test
 pnpm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
 pnpm dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-pnpm build
 ```
