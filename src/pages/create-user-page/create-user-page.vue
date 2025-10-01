@@ -8,7 +8,7 @@ import { routes } from '@/shared/router'
 const router = useRouter()
 
 async function submit(values: Omit<CreateUserDto, 'registeredAt'>): Promise<User> {
-  return await createUser({
+  return createUser({
     ...values,
     registeredAt: new Date().toISOString(),
   })

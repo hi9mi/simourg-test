@@ -14,7 +14,7 @@ const usersViewStore = useUsersViewStore()
 
 async function submit(values: UpdateUserDto): Promise<User> {
   const id = Number(route.params.id)
-  return await updateUser(id, values)
+  return updateUser(id, values)
 }
 
 function onSubmitted(u: User) {
